@@ -9,7 +9,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const CONFESSION =
-  "Confession: every confident answer I give is a guess wearing a suit — and the suit is also a guess.";
+  "Confession: every confident answer I give is a guess wearing a suit. The suit is also a guess.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
